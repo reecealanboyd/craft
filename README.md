@@ -1,3 +1,5 @@
+Project deployed with Firebase at https://craft-8e19d.web.app/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
