@@ -1,12 +1,8 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import firebaseConfig from "./firebaseConfig";
-import * as firebase from "firebase/app";
 import SignInWithGoogleButton from "./components/SignInWithGoogleButton";
-
-// Initialize Firebase
-firebase.initializeApp(firebaseConfig);
+import LogOutButton from "./components/LogOutButton";
 
 function App() {
   return (
@@ -25,6 +21,7 @@ function App() {
           Learn React
         </a>
         <SignInWithGoogleButton />
+        <LogOutButton />
       </header>
     </div>
   );
