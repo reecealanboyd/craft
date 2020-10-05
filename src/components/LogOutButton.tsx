@@ -1,4 +1,3 @@
-import { auth } from "firebase";
 import * as React from "react";
 import { useContext } from "react";
 import { GlobalContext } from "../GlobalContext";
