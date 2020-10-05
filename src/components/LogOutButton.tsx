@@ -1,12 +1,12 @@
 import { auth } from "firebase";
 import * as React from "react";
 import { useContext } from "react";
-import { globalContext } from "../globalContext";
+import { GlobalContext } from "../GlobalContext";
 
 interface ILogOutButtonProps {}
 
 const LogOutButton: React.FunctionComponent<ILogOutButtonProps> = (props) => {
-  const { auth } = useContext(globalContext);
+  const { auth } = useContext(GlobalContext);
   const logOut = () => {
     auth.signOut();
   };

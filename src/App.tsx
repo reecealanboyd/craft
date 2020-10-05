@@ -3,6 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import SignInWithGoogleButton from "./components/SignInWithGoogleButton";
 import LogOutButton from "./components/LogOutButton";
+import ToggleLightDarkModeButton from "./components/ToggleLightDarkModeButton";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         </a>
         <SignInWithGoogleButton />
         <LogOutButton />
+        <ToggleLightDarkModeButton />
       </header>
     </div>
   );
