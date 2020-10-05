@@ -3,12 +3,12 @@ import logo from "./logo.svg";
 import "./App.css";
 import firebaseConfig from "./firebaseConfig";
 import * as firebase from "firebase/app";
+import SignInWithGoogleButton from "./components/SignInWithGoogleButton";
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
 function App() {
-  console.log(firebase);
   return (
     <div className="App">
       <header className="App-header">
@@ -24,6 +24,7 @@ function App() {
         >
           Learn React
         </a>
+        <SignInWithGoogleButton />
       </header>
     </div>
   );
