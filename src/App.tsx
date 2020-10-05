@@ -1,8 +1,14 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import firebaseConfig from "./firebaseConfig";
+import * as firebase from "firebase/app";
+
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
 
 function App() {
+  console.log(firebase);
   return (
     <div className="App">
       <header className="App-header">
